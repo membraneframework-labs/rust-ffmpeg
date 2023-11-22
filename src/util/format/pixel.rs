@@ -808,6 +808,12 @@ impl From<AVPixelFormat> for Pixel {
             AV_PIX_FMT_RPI4_8 => Pixel::RPI4_8,
             #[cfg(feature = "rpi")]
             AV_PIX_FMT_RPI4_10 => Pixel::RPI4_10,
+            AV_PIX_FMT_P212BE => todo!(),
+            AV_PIX_FMT_P212LE => todo!(),
+            AV_PIX_FMT_P412BE => todo!(),
+            AV_PIX_FMT_P412LE => todo!(),
+            AV_PIX_FMT_GBRAP14BE => todo!(),
+            AV_PIX_FMT_GBRAP14LE => todo!(),
         }
     }
 }
